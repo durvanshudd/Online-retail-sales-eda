@@ -12,7 +12,7 @@ To clean a real-world, messy transactional dataset and answer a set of practical
 
 ## Dataset
 
-- **Source:** Online Retail dataset — transaction-level records from a UK-based online retailer, Dec 2010–Dec 2011
+- **Source:** This project uses the Online Retail dataset. Download it from https://www.kaggle.com/datasets/tunguz/online-retail  — transaction-level records from a UK-based online retailer, Dec 2010–Dec 2011
 - **Size:** 1,067,371 rows × 8 columns (raw)
 - **Columns:** `Invoice`, `StockCode`, `Description`, `Quantity`, `InvoiceDate`, `Price`, `Customer ID`, `Country`
 
@@ -50,11 +50,17 @@ To clean a real-world, messy transactional dataset and answer a set of practical
 
 Six charts were generated to support the above findings:
 1. UK vs Non-UK total revenue
+   <img width="640" height="480" alt="UK VS Non UK Comparision on basis of total Revenue" src="https://github.com/user-attachments/assets/d272ecef-3102-4a52-83dd-b564a4d14365" />
 2. Average revenue by country
+   <img width="1500" height="600" alt="Average Revenue of each country" src="https://github.com/user-attachments/assets/4dd4aa34-ff67-49f6-b99f-d57a8ea0e558" />
 3. Average revenue by month
+   <img width="1000" height="600" alt="Average Revenue per month" src="https://github.com/user-attachments/assets/b39fd70e-9393-42b7-a27a-e2211bdc6be8" />
 4. Average revenue by day of week
+   <img width="800" height="600" alt="Average Revenue of each day of week" src="https://github.com/user-attachments/assets/748fd7f2-d600-4067-8e25-ce99171e1d45" />
 5. Top 10 products by quantity sold
+   <img width="640" height="480" alt="Top 10 products by quantity" src="https://github.com/user-attachments/assets/5d277d71-d08c-4b27-a680-1b2b2dc014bc" />
 6. One-time vs repeat customer average revenue
+   <img width="640" height="480" alt="Customer Type VS Revenue" src="https://github.com/user-attachments/assets/de9483c6-bfba-4a75-84a7-523de08f825d" />
 
 ## Tools Used
 
