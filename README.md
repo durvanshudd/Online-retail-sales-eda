@@ -67,11 +67,3 @@ Six charts were generated to support the above findings:
 - The ~23% of rows with missing Customer ID were dropped entirely; these are not yet confirmed as guest checkouts vs. another cause.
 - Next planned notebook in this series: customer segmentation (RFM-style) on the cleaned dataset.
 
-## How to Run
-
-```bash
-pip install pandas numpy matplotlib
-jupyter notebook NoteBook.ipynb
-```
-
-Place `online_retail.csv` in the same directory before running.
