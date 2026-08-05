@@ -66,10 +66,3 @@ Six charts were generated to support the above findings:
 
 `Python`, `pandas`, `numpy`, `matplotlib`
 
-## Limitations / Next Steps
-
-- Revenue comparisons (e.g. repeat vs one-time customers) are based on visual/mean comparison and have not yet been validated with a statistical significance test — flagged as a follow-up.
-- Extreme-quantity orders (70,000+ units) are treated as outliers but not yet traced to specific accounts to check whether they represent wholesale/B2B buying skewing the averages.
-- The ~23% of rows with missing Customer ID were dropped entirely; these are not yet confirmed as guest checkouts vs. another cause.
-- Next planned notebook in this series: customer segmentation (RFM-style) on the cleaned dataset.
-
